@@ -1,0 +1,16 @@
+<table class="table table-hover">
+  <thead>
+  <tr>
+    <th scope="col" [translate]="'Date'"></th>
+    <th scope="col" [translate]="'City'"></th>
+    <th scope="col" [translate]="'Location'"></th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let i of locations | async" [class.bg-alert]="i.day < today">
+    <th>{{i.day | date: 'longDate'}}</th>
+    <td>{{(i |translateEntry).location}}</td>
+    <td>{{(i |translateEntry).street}}</td>
+  </tr>
+  </tbody>
+</table>
