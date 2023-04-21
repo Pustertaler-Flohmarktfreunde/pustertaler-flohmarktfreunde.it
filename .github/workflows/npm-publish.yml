@@ -25,7 +25,6 @@ jobs:
 #  #        working-directory: src
 
   publish-npm:
-    needs: build
     if: contains('refs/heads/master', github.ref)
     runs-on: ubuntu-latest
     steps:
