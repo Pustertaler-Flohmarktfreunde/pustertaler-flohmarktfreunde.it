@@ -16,7 +16,7 @@ export class ProgramListComponent {
   public today = new Date(this.now.getUTCFullYear(), this.now.getUTCMonth(), this.now.getUTCDate());
 
   constructor(private httpClient: HttpClient, private papa: Papa<CSVLine[]>) {
-    this.locations = httpClient.get('/assets/dates.csv', {responseType: 'text'})
+    this.locations = httpClient.get('pustertaler-flohmarktfreunde/assets/dates.csv', {responseType: 'text'})
       .pipe(
         map(e => {
           return papa.parse(e, {
