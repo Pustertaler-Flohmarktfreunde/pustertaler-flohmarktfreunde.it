@@ -41,11 +41,11 @@ export class ProgramListComponent {
               },
               italian: {
                 location: e.locationIt,
-                street: e.streetDe,
+                street: e.streetIt,
               }
             }
             return data;
-          })
+          });
         }),
       );
   }

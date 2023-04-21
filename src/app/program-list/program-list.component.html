@@ -1,16 +1,21 @@
 <table class="table table-hover">
   <thead>
   <tr>
-    <th [translate]="'Date'" scope="col"></th>
+    <th scope="col"></th>
     <th [translate]="'City'" scope="col"></th>
     <th [translate]="'Location'" scope="col"></th>
   </tr>
   </thead>
-  <tbody>
-  <tr *ngFor="let i of locations | async" [class.bg-warning]="!(i.day < today || i.day > today)" [class.text-muted]="i.day < today">
-    <th>{{i.day | date: 'longDate'}}</th>
-    <td>{{(i |translateEntry).location}}</td>
-    <td>{{(i |translateEntry).street}}</td>
+  <tbody *ngFor="let i of (locations | groupByDate | async)">
+  <tr>
+    <td [colSpan]="3" class="bg-light">
+      <span class="h3">{{i.key}}</span>
+    </td>
+  </tr>
+  <tr *ngFor="let j of i.items" [class.bg-warning]="!(j.day < today || j.day > today)" [class.text-muted]="j.day < today">
+    <td>{{j.day | dateTimeFormatOptions: {month: '2-digit', day: '2-digit'} }}</td>
+    <td>{{(j |translateEntry).location}}</td>
+    <td>{{(j |translateEntry).street}}</td>
   </tr>
   </tbody>
 </table>

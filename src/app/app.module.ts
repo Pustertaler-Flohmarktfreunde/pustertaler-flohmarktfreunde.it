@@ -9,7 +9,7 @@ import {registerLocaleData} from "@angular/common";
 
 import localeDe from '@angular/common/locales/de';
 import localeIt from '@angular/common/locales/it';
-import {TranslateEntryPipe} from './translate-entry.pipe';
+import {DateTimeFormatOptionsPipe, GroupByPipe, TranslateEntryPipe} from './translate-entry.pipe';
 import {TranslateHttpLoader} from "@ngx-translate/http-loader";
 import {ImprintComponent} from './imprint/imprint.component';
 import {RouterModule, TitleStrategy} from "@angular/router";
@@ -35,7 +35,9 @@ export function HttpLoaderFactory(http: HttpClient) {
     ImprintComponent,
     HomeComponent,
     FooterComponent,
-    NavbarComponent
+    NavbarComponent,
+    GroupByPipe,
+    DateTimeFormatOptionsPipe
   ],
   imports: [
     BrowserModule,
