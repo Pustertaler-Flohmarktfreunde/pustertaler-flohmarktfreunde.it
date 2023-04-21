@@ -10,7 +10,7 @@ on:
 
 jobs:
   build:
-    if: { { !contains('refs/heads/master', github.ref) } }
+    if: {{ !contains('refs/heads/master', github.ref) }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
