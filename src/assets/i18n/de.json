@@ -4,7 +4,12 @@
   "Location": "Straße",
   "UnsereFlohmärkte": "Unsere Flohmärkte",
   "Programm": "Programm",
+  "Appointments": "Termine",
   "PustertalerFlohmarktFreunde": "Pustertaler Flohmarktfreunde",
   "DurationDescription": "Alle Flohmärkte von 08:00 bis 17:00 Uhr",
-  "DisclaimerUsage": "Am Flohmarkt dürfen ausschließlich Clubmitglieder teilnehmen"
+  "DisclaimerUsage": "Am Flohmarkt dürfen ausschließlich Clubmitglieder teilnehmen",
+  "Title": {
+    "Home": "Home",
+    "Imprint": "Impressum"
+  }
 }

@@ -1,13 +1,13 @@
 <table class="table table-hover">
   <thead>
   <tr>
-    <th scope="col" [translate]="'Date'"></th>
-    <th scope="col" [translate]="'City'"></th>
-    <th scope="col" [translate]="'Location'"></th>
+    <th [translate]="'Date'" scope="col"></th>
+    <th [translate]="'City'" scope="col"></th>
+    <th [translate]="'Location'" scope="col"></th>
   </tr>
   </thead>
   <tbody>
-  <tr *ngFor="let i of locations | async" [class.bg-alert]="i.day < today">
+  <tr *ngFor="let i of locations | async" [class.bg-warning]="!(i.day < today || i.day > today)" [class.text-muted]="i.day < today">
     <th>{{i.day | date: 'longDate'}}</th>
     <td>{{(i |translateEntry).location}}</td>
     <td>{{(i |translateEntry).street}}</td>

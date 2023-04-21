@@ -1,6 +1,7 @@
-import { Pipe, PipeTransform } from '@angular/core';
-import {IDateEntry, ILanguage} from "./program-list/program-list.component";
-import {SettingsService} from "./app.module";
+import {Pipe, PipeTransform} from '@angular/core';
+
+import {SettingsService} from "./settings.service";
+import {IDateEntry, ILanguage} from "./models";
 
 @Pipe({
   name: 'translateEntry'
@@ -11,10 +12,9 @@ export class TranslateEntryPipe implements PipeTransform {
   }
 
   transform(value: IDateEntry): ILanguage {
-    if(this.translator.getLanguage() === 'it'){
+    if (this.translator.getLanguage() === 'it') {
       return value.italian;
     }
     return value.german;
   }
-
 }

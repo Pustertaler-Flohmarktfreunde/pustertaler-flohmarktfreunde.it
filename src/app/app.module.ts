@@ -1,4 +1,4 @@
-import {Inject, Injectable, LOCALE_ID, NgModule} from '@angular/core';
+import {LOCALE_ID, NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
 
 import {AppComponent} from './app.component';
@@ -9,28 +9,19 @@ import {registerLocaleData} from "@angular/common";
 
 import localeDe from '@angular/common/locales/de';
 import localeIt from '@angular/common/locales/it';
-import { TranslateEntryPipe } from './translate-entry.pipe';
+import {TranslateEntryPipe} from './translate-entry.pipe';
 import {TranslateHttpLoader} from "@ngx-translate/http-loader";
+import {ImprintComponent} from './imprint/imprint.component';
+import {RouterModule, TitleStrategy} from "@angular/router";
+import {HomeComponent} from './home/home.component';
+import {CustomPageTitleStrategy} from "./customPageTitleStrategy";
+import {FooterComponent} from './footer/footer.component';
+import {NavbarComponent} from './navbar/navbar.component';
+import {SettingsService} from "./settings.service";
+
 registerLocaleData(localeDe);
 registerLocaleData(localeIt);
 
-
-@Injectable({providedIn:'root'})
-export class SettingsService{
-
-  constructor(private translation: TranslateService) {
-  }
-  getLanguage(){
-    let browserLang = this.translation.getBrowserLang();
-    if(browserLang){
-      if(this.translation.getLangs().indexOf(browserLang) > -1){
-        return browserLang;
-      }
-    }
-
-    return this.translation.getDefaultLang();
-  }
-}
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -40,11 +31,19 @@ export function HttpLoaderFactory(http: HttpClient) {
   declarations: [
     AppComponent,
     ProgramListComponent,
-    TranslateEntryPipe
+    TranslateEntryPipe,
+    ImprintComponent,
+    HomeComponent,
+    FooterComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
+    RouterModule.forRoot([
+      {path: '', component: HomeComponent, title: 'PustertalerFlohmarktFreunde'},
+      {path: 'imprint', component: ImprintComponent, title: 'Title.Imprint', data: {'navBarBg': 'dark'}}
+    ]),
     TranslateModule.forRoot({
       defaultLanguage: 'de',
       loader: {
@@ -59,7 +58,8 @@ export function HttpLoaderFactory(http: HttpClient) {
       provide: LOCALE_ID,
       deps: [SettingsService],
       useFactory: (settingsService: any) => settingsService.getLanguage()
-    }
+    },
+    {provide: TitleStrategy, useClass: CustomPageTitleStrategy}
   ],
   bootstrap: [AppComponent]
 })
@@ -69,3 +69,4 @@ export class AppModule {
   }
 
 }
+
