@@ -18,6 +18,7 @@ import {CustomPageTitleStrategy} from "./customPageTitleStrategy";
 import {FooterComponent} from './footer/footer.component';
 import {NavbarComponent} from './navbar/navbar.component';
 import {SettingsService} from "./settings.service";
+import {PrivacyComponent} from './privacy/privacy.component';
 
 registerLocaleData(localeDe);
 registerLocaleData(localeIt);
@@ -37,14 +38,16 @@ export function HttpLoaderFactory(http: HttpClient) {
     FooterComponent,
     NavbarComponent,
     GroupByPipe,
-    DateTimeFormatOptionsPipe
+    DateTimeFormatOptionsPipe,
+    PrivacyComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     RouterModule.forRoot([
       {path: '', component: HomeComponent, title: 'PustertalerFlohmarktFreunde'},
-      {path: 'imprint', component: ImprintComponent, title: 'Title.Imprint', data: {'navBarBg': 'dark'}}
+      {path: 'imprint', component: ImprintComponent, title: 'Title.Imprint', data: {'navBarBg': 'dark'}},
+      {path: 'privacy', component: PrivacyComponent, title: 'Title.Privacy', data: {'navBarBg': 'dark'}}
     ]),
     TranslateModule.forRoot({
       defaultLanguage: 'de',
