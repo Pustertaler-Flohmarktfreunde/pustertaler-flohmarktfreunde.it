@@ -59,7 +59,7 @@ export class GroupByPipe implements PipeTransform {
     return value
       .pipe(
         map(e => {
-          return from(e).groupBy(e => new Date(e.day.getFullYear(), e.day.getMonth(), 1).toLocaleString(this.locale, {month: 'long', year: 'numeric'}))
+          return from(e).groupBy(e => new Date(e.day.getFullYear(), e.day.getMonth(), 1).toISOString())
             .select(e => {
               return {key: new Date(e.key), items: e.toArray()};
             }).toArray();

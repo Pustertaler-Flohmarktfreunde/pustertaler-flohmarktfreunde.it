@@ -11,11 +11,11 @@
   <tbody *ngFor="let i of (eventDatesLoader.locations | groupByDate | async)">
   <tr>
     <td [colSpan]="3" class="bg-light">
-      <span class="h3">{{i.key | date: 'MMMM'}}</span>
+    <span class="h3">{{i.key | dateTimeFormatOptions: {year: 'numeric', month: 'long' } }}</span>
     </td>
   </tr>
   <tr *ngFor="let j of i.items">
-    <td>{{j.day | dateTimeFormatOptions: {month: '2-digit', day: '2-digit'} }}</td>
+    <td>{{j.day | dateTimeFormatOptions: {month: '2-digit', day: '2-digit', weekday: 'short'} }}</td>
     <td>{{(j |translateEntry).location}}</td>
     <td>{{(j |translateEntry).street}}</td>
   </tr>
