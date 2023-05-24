@@ -19,6 +19,7 @@ import {FooterComponent} from './footer/footer.component';
 import {NavbarComponent} from './navbar/navbar.component';
 import {SettingsService} from "./settings.service";
 import {PrivacyComponent} from './privacy/privacy.component';
+import { NextEventComponent } from './next-event/next-event.component';
 
 registerLocaleData(localeDe);
 registerLocaleData(localeIt);
@@ -39,7 +40,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     NavbarComponent,
     GroupByPipe,
     DateTimeFormatOptionsPipe,
-    PrivacyComponent
+    PrivacyComponent,
+    NextEventComponent
   ],
   imports: [
     BrowserModule,

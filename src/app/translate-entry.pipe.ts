@@ -30,7 +30,7 @@ export class TranslateEntryPipe implements PipeTransform {
   }
 }
 
-type test = { key: string, items: IDateEntry[] };
+type test = { key: Date, items: IDateEntry[] };
 
 
 @Pipe({
@@ -61,7 +61,7 @@ export class GroupByPipe implements PipeTransform {
         map(e => {
           return from(e).groupBy(e => new Date(e.day.getFullYear(), e.day.getMonth(), 1).toLocaleString(this.locale, {month: 'long', year: 'numeric'}))
             .select(e => {
-              return {key: e.key, items: e.toArray()};
+              return {key: new Date(e.key), items: e.toArray()};
             }).toArray();
         })
       );
