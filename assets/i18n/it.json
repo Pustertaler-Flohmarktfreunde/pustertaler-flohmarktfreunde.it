@@ -1,2 +1,21 @@
 {
+  "Date": "data",
+  "City": "luogo",
+  "Location": "via",
+  "UnsereFlohmärkte": "I nostri mercati",
+  "NächsteFlohmärkte": "Prossimi mercatini delle pulci",
+  "Programm": "Programma",
+  "Appointments": "Eventi",
+  "PustertalerFlohmarktFreunde": "Amici del mercatino delle pulci della Val Pusteria",
+  "DurationDescription": "Tutti i mercatini delle pulci dalle 08:00 alle 17:00",
+  "DisclaimerUsage": "Solo i membri del club possono partecipare al mercato delle pulci",
+  "Title": {
+    "Home": "Home",
+    "Imprint": "impronta",
+    "Privacy": "protezione dati"
+  },
+  "Meta": {
+    "Description": "Tutte le date e gli appuntamenti del mercatino delle pulci della Val Pusteria amici",
+    "Keywords": "Amici del mercato delle pulci della Val Pusteria, mercatino delle pulci, mercatini delle pulci, Val Pusteria,mercatino"
+  }
 }
