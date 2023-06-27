@@ -37,7 +37,7 @@ jobs:
         working-directory: src
       - name: deploy
         run: |
-          npm run build:deploy -- --name "Michael Mairegger" --email "info@michaelmairegger.it" --no-silent
+          npm run build:deploy -- --name "Michael Mairegger" --email "info@michaelmairegger.it" --no-silent --cname pustertaler-flohmarktfreunde.it
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         working-directory: src
