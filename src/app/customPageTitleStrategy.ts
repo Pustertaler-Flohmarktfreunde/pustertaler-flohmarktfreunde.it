@@ -11,11 +11,11 @@ export class CustomPageTitleStrategy extends TitleStrategy {
   }
 
   updateTitle(snapshot: RouterStateSnapshot): void {
-    const title = this.buildTitle(snapshot);
-    if (title) {
-      this.translate.get(title).subscribe(title => {
-        this.title.setTitle(title);
-      });
-    }
+    // const title = this.buildTitle(snapshot);
+    // if (title) {
+    //   this.translate.get(title).subscribe(title => {
+    //     this.title.setTitle(title);
+    //   });
+    // }
   }
 }
