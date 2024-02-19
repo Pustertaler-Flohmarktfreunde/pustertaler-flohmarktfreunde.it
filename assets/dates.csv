@@ -1,27 +1,27 @@
-day;locationDe;streetDe;locationIt;streetIt
-2023-04-23   ;Percha   ;Parkplatz M. Preis    ;Perca     ;parcheggio M.Preis
+day,locationDe,streetDe,locationIt,streetIt
+2023-04-23   ,Percha   ,Parkplatz M. Preis    ,Perca     ,parcheggio M.Preis
 
-2023-05-07   ;Percha   ;Parkplatz M. Preis    ;Perca     ;parcheggio M.Preis
+2023-05-07   ,Percha   ,Parkplatz M. Preis    ,Perca     ,parcheggio M.Preis
 
-2023-06-04   ;Percha   ;Parkplatz M. Preis    ;Perca     ;parcheggio M.Preis
+2023-06-04   ,Percha   ,Parkplatz M. Preis    ,Perca     ,parcheggio M.Preis
 
-2023-07-09   ;Percha   ;Parkplatz M. Preis    ;Perca     ;parcheggio M.Preis
-2023-07-15   ;Pfalzen   ;Hauptstraße (Ex. Hotel Edi)    ;Falzes     ;Strada principale (ex. Hotel Edi)
-2023-07-16   ;Olang   ;Dorfzentrum    ;Valdaora     ;centro
-2023-07-22   ;Niederdorf   ;Dorfzentrum    ;Villabassa     ;centro
-2023-07-23   ;Percha   ;Parkplatz M. Preis    ;Perca     ;parcheggio M.Preis
-2023-07-29   ;Toblach   ;Dorfzentrum    ;Dobbiaco     ;centro
-2023-07-30   ;Percha   ;Parkplatz M. Preis    ;Perca     ;parcheggio M.Preis
+2023-07-09   ,Percha   ,Parkplatz M. Preis    ,Perca     ,parcheggio M.Preis
+2023-07-15   ,Pfalzen   ,Hauptstraße (Ex. Hotel Edi)    ,Falzes     ,Strada principale (ex. Hotel Edi)
+2023-07-16   ,Olang   ,Dorfzentrum    ,Valdaora     ,centro
+2023-07-22   ,Niederdorf   ,Dorfzentrum    ,Villabassa     ,centro
+2023-07-23   ,Percha   ,Parkplatz M. Preis    ,Perca     ,parcheggio M.Preis
+2023-07-29   ,Toblach   ,Dorfzentrum    ,Dobbiaco     ,centro
+2023-07-30   ,Percha   ,Parkplatz M. Preis    ,Perca     ,parcheggio M.Preis
 
-2023-08-04   ;Niederdorf   ;Dorfzentrum    ;Villabassa     ;centro
-2023-08-06   ;Percha   ;Parkplatz M. Preis    ;Perca     ;parcheggio M.Preis
-2023-08-09   ;Niederdorf   ;Dorfzentrum    ;Villabassa     ;centro
-2023-08-13   ;Olang   ;Dorfzentrum    ;Valdaora     ;centro
-2023-08-16   ;Niederdorf   ;Dorfzentrum    ;Villabassa     ;centro
-2023-08-19   ;Pfalzen   ;Hauptstraße (Ex Hotel Edi)    ;Falzes     ;Strada pricipale (ex. Hotel Edi)
-2023-08-20   ;Percha   ;Parkplatz M. Preis    ;Perca     ;parcheggio M.Preis
-2023-08-25   ;Niederdorf   ;Dorfzentrum    ;Villabassa     ;centro
-2023-08-26   ;Pederoa   ;Hauptstraße Imbiss Robi`s Snack    ;Pederoa     ;Strada principale imbiss Robi`s
-2023-08-27   ;Olang   ;Dorfzentrum    ;Valdaora     ;centro
+2023-08-04   ,Niederdorf   ,Dorfzentrum    ,Villabassa     ,centro
+2023-08-06   ,Percha   ,Parkplatz M. Preis    ,Perca     ,parcheggio M.Preis
+2023-08-09   ,Niederdorf   ,Dorfzentrum    ,Villabassa     ,centro
+2023-08-13   ,Olang   ,Dorfzentrum    ,Valdaora     ,centro
+2023-08-16   ,Niederdorf   ,Dorfzentrum    ,Villabassa     ,centro
+2023-08-19   ,Pfalzen   ,Hauptstraße (Ex Hotel Edi)    ,Falzes     ,Strada pricipale (ex. Hotel Edi)
+2023-08-20   ,Percha   ,Parkplatz M. Preis    ,Perca     ,parcheggio M.Preis
+2023-08-25   ,Niederdorf   ,Dorfzentrum    ,Villabassa     ,centro
+2023-08-26   ,Pederoa   ,Hauptstraße Imbiss Robi`s Snack    ,Pederoa     ,Strada principale imbiss Robi`s
+2023-08-27   ,Olang   ,Dorfzentrum    ,Valdaora     ,centro
 
-2023-09-24   ;Percha   ;Parkplatz M. Preis    ;Perca     ;parcheggio M.Preis
+2023-09-24   ,Percha   ,Parkplatz M. Preis    ,Perca     ,parcheggio M.Preis
