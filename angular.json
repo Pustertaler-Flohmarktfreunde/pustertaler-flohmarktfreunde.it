@@ -70,10 +70,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "hellweger-norbert:build:production"
+              "buildTarget": "hellweger-norbert:build:production"
             },
             "development": {
-              "browserTarget": "hellweger-norbert:build:development"
+              "buildTarget": "hellweger-norbert:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -81,7 +81,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "hellweger-norbert:build"
+            "buildTarget": "hellweger-norbert:build"
           }
         },
         "test": {
