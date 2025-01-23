@@ -1,24 +1,22 @@
-day          ,locationDe ,streetDe                   ,locationIt ,streetIt
-2024-04-28   ,Percha     ,Parkplatz M. Preis         ,Perca      ,parcheggio M.Preis
-2024-05-05   ,Percha     ,Parkplatz M. Preis         ,Perca      ,parcheggio M.Preis
-2024-06-16   ,Percha     ,Parkplatz M. Preis         ,Perca      ,parcheggio M.Preis
-2024-07-13   ,Pfalzen    ,(Haubtstraße beim Rundell) ,Falzes     ,strada principale (sulla rotonda)
-2024-07-14   ,Percha     ,Parkplatz M. Preis         ,Perca      ,parcheggio M.Preis
-2024-07-20   ,Niederdorf ,Dorfzentrum                ,Villabassa ,nel centro
-2024-07-21   ,Olang      ,Dorfzentrum                ,Valdaora   ,nel centro
-2024-07-26   ,Bruneck    ,Rathausplatz               ,Brunico    ,piazza municipio
-2024-07-27   ,Toblach    ,Dorfzentrum                ,Dobbiaco   ,nel centro
-2024-07-28   ,Percha     ,Parkplatz M. Preis         ,Perca      ,parcheggio M.Preis
-2024-08-02   ,Niederdorf ,Dorfzentrum                ,Villabassa ,nel centro
-2024-08-04   ,Percha     ,Parkplatz M. Preis         ,Perca      ,parcheggio M.Preis
-2024-08-07   ,Niederdorf ,Dorfzentrum                ,Villabassa ,nel centro
-2024-08-11   ,Olang      ,Dorfzentrum                ,Valdaora   ,nel centro
-2024-08-14   ,Niederdorf ,Dorfzentrum                ,Villabassa ,nel centro                                                                                                                                                                  
-2024-08-16   ,Olang      ,Dorfzentrum                ,Valdaora   ,nel centro       
-2024-08-17   ,Pfalzen    ,Hauptstraße (beim Rundell) ,Falzes     ,strada pricipale (sulla rotonda)
-2024-08-18   ,Percha     ,Parkplatz M. Preis         ,Perca      ,parcheggio M.Preis
-2024-08-21   ,Niederdorf ,Dorfzentrum                ,Villabassa ,nel centro
-2024-08-23   ,Olang      ,Dorfzentrum                ,Valdaora   ,nel centro
-2024-08-25   ,Percha     ,Parkplatz M. Preis         ,Perca      ,parcheggio M.Preis
-
+day              locationDe streetDe                 day                  locationItstreetIt
+2025-04-27   -   Percha     Parkplatz M. Preis       2025-04-27     -     Perca      parcheggio M.Preis
+2025-05-04   -   Percha     Parkplatz M. Preis       2025-05-04     -     Perca      parcheggio M.Preis
+2025-06-01   -   Percha     Parkplatz M. Preis       2025-06-01     -     Perca      parcheggio M.Preis
+2025-06-15   -   Percha    Parkplatz M. Preis        2025-06-15     -     Perca      parcheggio M.Preis
+2025-07-13   -   Percha     Parkplatz M. Preis,      2025-07-13     -     Perca      parcheggio M.Preis
+2025-07-19   -   Niederdorf Dorfzentrum              2025-07-19     -     Villabassa nel centro
+2025-07-20   -   Olang      Dorfzentrum              2025-07 20     -     Valdaora   nel centro
+2025-07-25   -   Bruneck    Rathausplatz             2025-07-25     -     Brunico    piazza municipio
+2025-07-26   -   Toblach    Dorfzentrum              2025-07-26     -     Dobbiaco   nel centro
+2025-07-27   -   Percha     Parkplatz M. Preis       2025-07-27     -     Perca      parcheggio M.Preis
+2025-08-01   -   Niederdorf Dorfzentrum              2025-08-01     -     Villabassa nel centro
+2025-08-03   -   Percha     Parkplatz M. Preis       2025-08-03     -     Perca      parcheggio M.Preis
+2025-08-06   -   Niederdorf Dorfzentrum              2025-08-06     -     Villabassa nel centro
+2025-08-10   -   Olang      Dorfzentrum              2025-08-10     -     Valdaora   nel centro
+2025-08-13   -   Niederdorf Dorfzentrum              2025-08-13     -     Villabassa nel centro    
+2025-08-17   -   Percha     Parkplatz M. Preis       2025-08-17     -     Perca      parcheggio M.Preis
+2025-08-20   -   Niederdorf Dorfzentrum              2025-08-20     -     Villabassa nel centro
+2025-08-24   -   Percha     Parkplatz M. Preis       2025-08-24     -     Perca      parcheggio M.Preis
+2025-09-28   -   Percha     Parkplatz M. Preis       2025-09-28     -     Perca      parcheggio M.Preis
+2025-10-o5   -   Percha     Parkplatz M.Preis        2025-10-05     -     Perca      parcheggio M.Preis
 
