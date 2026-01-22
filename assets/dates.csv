@@ -1,19 +1,23 @@
 day        , locationDe , streetDe            , day        , locationIt , streetIt
-2025-04-27 , Percha     , Parkplatz M. Preis  , 2025-04-27 , Perca      , parcheggio M.Preis
-2025-05-04 , Percha     , Parkplatz M. Preis  , 2025-05-04 , Perca      , parcheggio M.Preis
-2025-06-01 , Percha     , Parkplatz M. Preis  , 2025-06-01 , Perca      , parcheggio M.Preis
-2025-06-15 , Percha     , Parkplatz M. Preis  , 2025-06-15 , Perca      , parcheggio M.Preis
-2025-07-13 , Percha     , Parkplatz M. Preis  , 2025-07-13 , Perca      , parcheggio M.Preis
-2025-07-19 , Niederdorf , Dorfzentrum         , 2025-07-19 , Villabassa , nel centro
-2025-07-20 , Olang      , Dorfzentrum         , 2025-07 20 , Valdaora   , nel centro
-2025-07-25 , Bruneck    , Rathausplatz        , 2025-07-25 , Brunico    , piazza municipio
-2025-07-26 , Toblach    , Dorfzentrum         , 2025-07-26 , Dobbiaco   , nel centro
-2025-07-27 , Percha     , Parkplatz M. Preis  , 2025-07-27 , Perca      , parcheggio M.Preis
-2025-08-01 , Niederdorf , Dorfzentrum         , 2025-08-01 , Villabassa , nel centro
-2025-08-03 , Percha     , Parkplatz M. Preis  , 2025-08-03 , Perca      , parcheggio M.Preis
-2025-08-06 , Niederdorf , Dorfzentrum         , 2025-08-06 , Villabassa , nel centro
-2025-08-10 , Olang      , Dorfzentrum         , 2025-08-10 , Valdaora   , nel centro
-2025-08-13 , Niederdorf , Dorfzentrum         , 2025-08-13 , Villabassa , nel centro    
-2025-08-17 , Percha     , Parkplatz M. Preis  , 2025-08-17 , Perca      , parcheggio M.Preis
-2025-08-20 , Niederdorf , Dorfzentrum         , 2025-08-20 , Villabassa , nel centro
-2025-08-24 , Percha     , Parkplatz M. Preis  , 2025-08-24 , Perca      , parcheggio M.Preis
+2026-04-11 , St.Lorenzen, Dorfzentrum         , 2026-04-11 , San lorenzo, nel centro
+2026-05-03 , Percha     , Parkplatz M. Preis  , 2026-05-03 , Perca      , parcheggio M.Preis
+2026-05-09 , St.Lorenzen, Dorfzentrum         , 2026-05-09 , San lorenzo, nel centro
+2026-05-31 , Percha     , Parkplatz M. Preis  , 2026-05-31 , Perca      , parcheggio M.Preis
+2026-06-13 , St.Lorenzen, Dorfzentrum         , 2026-06-13 , San lorenzo, nel centro
+2026-06-14 , Percha     , Parkplatz M. Preis  , 2026-06-14 , Perca      , parcheggio M.Preis
+2026-07-11 , St.Lorenzen, Dorfzentrum         , 2026-07 11 , San lorenzo, nel centro
+2025-07-12 , Percha     , Parkplatz M.Preis   , 2026-07-12 , Perca      , parcheggio M.Preis
+2026-07-19 , Olang      , Dorfzentrum         , 2026-07-18 , Valdaora   , nel centro
+2026-07-25 , Toblach    , Dorfzentrum         , 2026-07-25 , Dobbiaco   , nel centro
+2026-07-26 , Percha     , Parkplatz M.Preis   , 2026-07-26 , Perca      , parcheggio M.Preis
+2026-07-31 , Niederdorf , Dorfzentum          , 2026-07-31 , Villabassa , nel centro
+2026-08-02 , Percha     , Parkplatz M.Preis   , 2026-08-02 , Perca      , parcheggio M.Preis
+2026-08-05 , Niederdorf , Dorfzentrum         , 2026-08-05 , Villabassa , nel centro
+2026-08-07 , Bruneck    , Rathausplatz        , 2026-08-07 , Brunico    , piazza municipio    
+2026-08-08 , St.Lorenzen, Dorfzentum          , 2026-08-08 , San lorenzo, nel centro
+2026-08-09 , Olang      , Dorfzentrum         , 2026-08-09 , Valdaora   , nel centro
+2026-08-12 , Niederdorf , Dorfzentrum         , 2026-08-12 , Villabassa , nel centro
+2026-08-16 , Percha     , Parkplatz           , 2026-08-16 , Perca      , nel centro
+2026-08-19 , Niederdorf , Dorfzentrum         , 2026-08-19 , Villabassa , nel centro
+2026-08-23 , Percha     , Parkplatz           , 2026-08-23 , Perca      , parcheggio M.Prei
+2026-08-26 , Niederdorf , Dorfzentrum         , 2026-08-26 , Villabassa , nel centro
